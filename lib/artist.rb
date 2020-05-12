@@ -29,7 +29,7 @@ attr_accessor :name, :song
   end
   
   def print_songs
-    print self.songs.each do |song|
+    print songs.each do |song|
       puts song.name
     end
   end
