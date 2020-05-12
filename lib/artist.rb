@@ -28,4 +28,8 @@ attr_accessor :name, :song
     self.all.detect {|artist| artist.name == name} || Artist.new(name)
   end
   
+  def print_songs
+    print song.artist 
+  end
+  
 end
