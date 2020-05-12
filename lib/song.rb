@@ -21,5 +21,5 @@ attr_accessor :name, :artist
     new_song
   end
 
-
+end
 end
