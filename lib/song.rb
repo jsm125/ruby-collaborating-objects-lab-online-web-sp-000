@@ -21,5 +21,8 @@ attr_accessor :name, :artist
     new_song
   end
 
+  def artist_name(name)
+    self.artist = Artist
+    
 
 end
