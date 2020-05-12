@@ -13,12 +13,12 @@ attr_accessor :name, :artist
     @@all
   end
 
-#   def self.new_by_filename(filename)
-#     self.split(" - ") = Song.new[1]
-#     @artist << self 
-#   end
-#   self
-# end
+  def self.new_by_filename(filename)
+    self.split(" - ") = Song.new[1]
+    @artist << self 
+  end
+  self
+end
     
 
 
